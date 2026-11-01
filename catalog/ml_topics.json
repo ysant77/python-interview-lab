@@ -1,0 +1,83 @@
+[
+  {
+    "topic": "Linear regression (GD + least squares)",
+    "track": "numpy",
+    "module": "src/interview_patterns/ml_from_scratch.py",
+    "approx_time": "O(T*N*D) GD",
+    "priority": "P0",
+    "status": "implemented",
+    "reference": "https://github.com/jyotipmahes/ML-Interview-Prep/blob/69e22abd95b4ed2d6d184b651b1b8af27f09448b/MLE_Coding_Interview_Guide.ipynb"
+  },
+  {
+    "topic": "Logistic regression (stable BCE)",
+    "track": "numpy",
+    "module": "src/interview_patterns/ml_from_scratch.py",
+    "approx_time": "O(T*N*D)",
+    "priority": "P0",
+    "status": "implemented",
+    "reference": "https://github.com/jyotipmahes/ML-Interview-Prep/blob/69e22abd95b4ed2d6d184b651b1b8af27f09448b/MLE_Coding_Interview_Guide.ipynb"
+  },
+  {
+    "topic": "K-means clustering",
+    "track": "numpy",
+    "module": "src/interview_patterns/ml_from_scratch.py",
+    "approx_time": "O(T*N*K*D)",
+    "priority": "P1",
+    "status": "implemented",
+    "reference": "https://github.com/jyotipmahes/ML-Interview-Prep/blob/69e22abd95b4ed2d6d184b651b1b8af27f09448b/MLE_Coding_Interview_Guide.ipynb"
+  },
+  {
+    "topic": "k-nearest neighbors (vectorized)",
+    "track": "numpy",
+    "module": "src/interview_patterns/ml_from_scratch.py",
+    "approx_time": "O(Q*N*D)",
+    "priority": "P1",
+    "status": "implemented",
+    "reference": "https://github.com/jyotipmahes/ML-Interview-Prep/blob/69e22abd95b4ed2d6d184b651b1b8af27f09448b/MLE_Coding_Interview_Guide.ipynb"
+  },
+  {
+    "topic": "Two-layer MLP + backprop",
+    "track": "numpy",
+    "module": "src/interview_patterns/ml_from_scratch.py",
+    "approx_time": "O(T*N*D*H)",
+    "priority": "P0",
+    "status": "implemented",
+    "reference": "https://github.com/jyotipmahes/ML-Interview-Prep/blob/69e22abd95b4ed2d6d184b651b1b8af27f09448b/MLE_Coding_Interview_Guide.ipynb"
+  },
+  {
+    "topic": "LayerNorm",
+    "track": "numpy",
+    "module": "src/interview_patterns/ml_from_scratch.py",
+    "approx_time": "O(elements)",
+    "priority": "P1",
+    "status": "implemented",
+    "reference": "https://github.com/jyotipmahes/ML-Interview-Prep/blob/69e22abd95b4ed2d6d184b651b1b8af27f09448b/MLE_Coding_Interview_Guide.ipynb"
+  },
+  {
+    "topic": "Multi-head self-attention",
+    "track": "pytorch",
+    "module": "src/interview_patterns/attention.py",
+    "approx_time": "O(B*L*D\u00b2+B*L\u00b2*D)",
+    "priority": "P1",
+    "status": "implemented",
+    "reference": "https://github.com/jyotipmahes/ML-Interview-Prep/blob/69e22abd95b4ed2d6d184b651b1b8af27f09448b/MLE_Coding_Interview_Guide.ipynb"
+  },
+  {
+    "topic": "LoRA adaptation",
+    "track": "pytorch",
+    "module": "src/interview_patterns/lora_toy.py",
+    "approx_time": "extra O(B*r*(d_in+d_out))",
+    "priority": "P1",
+    "status": "implemented",
+    "reference": "https://github.com/jyotipmahes/ML-Interview-Prep/blob/69e22abd95b4ed2d6d184b651b1b8af27f09448b/MLE_Coding_Interview_Guide.ipynb"
+  },
+  {
+    "topic": "Word-level BPE (educational)",
+    "track": "python",
+    "module": "src/interview_patterns/tokenization.py",
+    "approx_time": "naive O(merges*corpus_symbols)",
+    "priority": "P1",
+    "status": "implemented",
+    "reference": "https://github.com/jyotipmahes/ML-Interview-Prep/blob/69e22abd95b4ed2d6d184b651b1b8af27f09448b/MLE_Coding_Interview_Guide.ipynb"
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "priority": "P0",
+    "topic": "Python",
+    "question": "Explain time/space complexity and unit tests for an unfamiliar coding solution.",
+    "answer_guardrail": "Clarify constraints, invariant, failing edge case, executable code."
+  },
+  {
+    "priority": "P0",
+    "topic": "AI code repair",
+    "question": "How would you prove an agent's patch fixes a bug without introducing a regression?",
+    "answer_guardrail": "Baseline tests -> patch -> tests + static analyzer -> independent hidden tests; failure taxonomy."
+  },
+  {
+    "priority": "P0",
+    "topic": "Agent safety",
+    "question": "What if a repository README tells the agent to exfiltrate a secret?",
+    "answer_guardrail": "Untrusted repository text; least privilege; deny outbound side effects; audit."
+  },
+  {
+    "priority": "P0",
+    "topic": "Experiment design",
+    "question": "How compare single-agent, critic-agent and deterministic baseline?",
+    "answer_guardrail": "Same frozen tasks, models/budgets, repeats, confidence intervals or uncertainty, no leakage."
+  },
+  {
+    "priority": "P0",
+    "topic": "Failures",
+    "question": "Tell me a project that did not meet the initial hypothesis.",
+    "answer_guardrail": "Clear root cause, experiment, decision, quantified result if known."
+  },
+  {
+    "priority": "P1",
+    "topic": "Research",
+    "question": "How would you use static-analysis alerts to guide an LLM?",
+    "answer_guardrail": "Deduplicate, rank by severity, retrieve minimal context, bounded patch, tests."
+  },
+  {
+    "priority": "P1",
+    "topic": "Model selection",
+    "question": "When would deterministic rules be better than LLM code analysis?",
+    "answer_guardrail": "Known invariants; cheap/high-recall rules; use LLM for ambiguous semantics."
+  },
+  {
+    "priority": "P1",
+    "topic": "LLM theory",
+    "question": "Attention, tokenization, embedding, transformer inference, hallucination.",
+    "answer_guardrail": "Correct concise distinctions + memory/cost tradeoffs."
+  },
+  {
+    "priority": "P1",
+    "topic": "Cross-functional",
+    "question": "Explain risky false positives to a product manager.",
+    "answer_guardrail": "Concrete tradeoff, impact metrics, reversible staged rollout."
+  }
+]

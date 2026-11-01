@@ -1,0 +1,461 @@
+[
+  {
+    "number": 1,
+    "pattern": "Sliding Window",
+    "leetcode_ids": [
+      3,
+      76,
+      209,
+      424,
+      567,
+      904
+    ],
+    "do_first": [
+      3,
+      209
+    ],
+    "tier": "P0"
+  },
+  {
+    "number": 2,
+    "pattern": "Two Pointers",
+    "leetcode_ids": [
+      11,
+      15,
+      16,
+      18,
+      42,
+      167
+    ],
+    "do_first": [
+      11,
+      167
+    ],
+    "tier": "P0"
+  },
+  {
+    "number": 3,
+    "pattern": "Fast/Slow Pointers (Linked List)",
+    "leetcode_ids": [
+      141,
+      142,
+      19,
+      876,
+      160,
+      234
+    ],
+    "do_first": [
+      141,
+      876
+    ],
+    "tier": "P1"
+  },
+  {
+    "number": 4,
+    "pattern": "Binary Search on Sorted Data",
+    "leetcode_ids": [
+      33,
+      34,
+      35,
+      153,
+      162,
+      704
+    ],
+    "do_first": [
+      704,
+      33
+    ],
+    "tier": "P0"
+  },
+  {
+    "number": 5,
+    "pattern": "Binary Search on Answer",
+    "leetcode_ids": [
+      875,
+      1011,
+      410,
+      774,
+      1283,
+      1482
+    ],
+    "do_first": [
+      875,
+      1011
+    ],
+    "tier": "P1"
+  },
+  {
+    "number": 6,
+    "pattern": "Hashing / Frequency Maps",
+    "leetcode_ids": [
+      1,
+      49,
+      128,
+      217,
+      242,
+      347
+    ],
+    "do_first": [
+      1,
+      242
+    ],
+    "tier": "P0"
+  },
+  {
+    "number": 7,
+    "pattern": "Prefix Sum / Running Sum",
+    "leetcode_ids": [
+      303,
+      560,
+      724,
+      930,
+      974,
+      523
+    ],
+    "do_first": [
+      560,
+      724
+    ],
+    "tier": "P1"
+  },
+  {
+    "number": 8,
+    "pattern": "Difference Array / Range Updates",
+    "leetcode_ids": [
+      370,
+      1094,
+      1109,
+      1893,
+      1943,
+      2381
+    ],
+    "do_first": [
+      1094,
+      1109
+    ],
+    "tier": "P2"
+  },
+  {
+    "number": 9,
+    "pattern": "Monotonic Stack",
+    "leetcode_ids": [
+      739,
+      496,
+      503,
+      84,
+      85,
+      901
+    ],
+    "do_first": [
+      739,
+      496
+    ],
+    "tier": "P0"
+  },
+  {
+    "number": 10,
+    "pattern": "Monotonic Queue / Deque",
+    "leetcode_ids": [
+      239,
+      862,
+      1425,
+      1438,
+      1499,
+      1696
+    ],
+    "do_first": [
+      239,
+      1438
+    ],
+    "tier": "P2"
+  },
+  {
+    "number": 11,
+    "pattern": "Heap / Top K",
+    "leetcode_ids": [
+      215,
+      347,
+      692,
+      703,
+      973,
+      1046
+    ],
+    "do_first": [
+      347,
+      215
+    ],
+    "tier": "P0"
+  },
+  {
+    "number": 12,
+    "pattern": "Intervals",
+    "leetcode_ids": [
+      56,
+      57,
+      252,
+      253,
+      435,
+      452
+    ],
+    "do_first": [
+      56,
+      57
+    ],
+    "tier": "P0"
+  },
+  {
+    "number": 13,
+    "pattern": "Greedy Scheduling / Sorting",
+    "leetcode_ids": [
+      45,
+      55,
+      406,
+      621,
+      763,
+      134
+    ],
+    "do_first": [
+      55,
+      621
+    ],
+    "tier": "P1"
+  },
+  {
+    "number": 14,
+    "pattern": "Linked List Manipulation",
+    "leetcode_ids": [
+      21,
+      23,
+      24,
+      25,
+      92,
+      138
+    ],
+    "do_first": [
+      21,
+      24
+    ],
+    "tier": "P1"
+  },
+  {
+    "number": 15,
+    "pattern": "Tree DFS",
+    "leetcode_ids": [
+      104,
+      112,
+      113,
+      543,
+      124,
+      226
+    ],
+    "do_first": [
+      104,
+      543
+    ],
+    "tier": "P1"
+  },
+  {
+    "number": 16,
+    "pattern": "Tree BFS / Level Order",
+    "leetcode_ids": [
+      102,
+      103,
+      199,
+      515,
+      637,
+      116
+    ],
+    "do_first": [
+      102,
+      199
+    ],
+    "tier": "P1"
+  },
+  {
+    "number": 17,
+    "pattern": "BST Problems",
+    "leetcode_ids": [
+      98,
+      99,
+      230,
+      235,
+      450,
+      700
+    ],
+    "do_first": [
+      98,
+      700
+    ],
+    "tier": "P2"
+  },
+  {
+    "number": 18,
+    "pattern": "Backtracking Basics",
+    "leetcode_ids": [
+      46,
+      47,
+      77,
+      78,
+      90,
+      39
+    ],
+    "do_first": [
+      78,
+      46
+    ],
+    "tier": "P1"
+  },
+  {
+    "number": 19,
+    "pattern": "Backtracking with Constraints",
+    "leetcode_ids": [
+      40,
+      17,
+      79,
+      131,
+      51,
+      52
+    ],
+    "do_first": [
+      79,
+      40
+    ],
+    "tier": "P2"
+  },
+  {
+    "number": 20,
+    "pattern": "Graph BFS / DFS",
+    "leetcode_ids": [
+      200,
+      695,
+      733,
+      994,
+      1091,
+      1254
+    ],
+    "do_first": [
+      200,
+      733
+    ],
+    "tier": "P0"
+  },
+  {
+    "number": 21,
+    "pattern": "Topological Sort / DAG",
+    "leetcode_ids": [
+      207,
+      210,
+      802,
+      1462,
+      1203,
+      2115
+    ],
+    "do_first": [
+      207,
+      210
+    ],
+    "tier": "P1"
+  },
+  {
+    "number": 22,
+    "pattern": "Union Find / DSU",
+    "leetcode_ids": [
+      547,
+      684,
+      1319,
+      1579,
+      990,
+      1202
+    ],
+    "do_first": [
+      547,
+      684
+    ],
+    "tier": "P2"
+  },
+  {
+    "number": 23,
+    "pattern": "Shortest Path",
+    "leetcode_ids": [
+      743,
+      787,
+      1514,
+      1631,
+      1334,
+      1976
+    ],
+    "do_first": [
+      743,
+      787
+    ],
+    "tier": "P2"
+  },
+  {
+    "number": 24,
+    "pattern": "MST / Graph Greedy",
+    "leetcode_ids": [
+      1584,
+      1135,
+      1168,
+      1489,
+      778,
+      1102
+    ],
+    "do_first": [
+      1584,
+      778
+    ],
+    "tier": "P2"
+  },
+  {
+    "number": 25,
+    "pattern": "Trie",
+    "leetcode_ids": [
+      208,
+      211,
+      212,
+      648,
+      677,
+      1268
+    ],
+    "do_first": [
+      208,
+      211
+    ],
+    "tier": "P2"
+  },
+  {
+    "number": 26,
+    "pattern": "Bit Manipulation",
+    "leetcode_ids": [
+      136,
+      137,
+      191,
+      338,
+      268,
+      190
+    ],
+    "do_first": [
+      136,
+      191
+    ],
+    "tier": "P2"
+  },
+  {
+    "number": 27,
+    "pattern": "1D DP Basics",
+    "leetcode_ids": [
+      70,
+      198,
+      213,
+      322,
+      279,
+      300
+    ],
+    "do_first": [
+      70,
+      198
+    ],
+    "tier": "P1"
+  }
+]

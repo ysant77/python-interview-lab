@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-interview-lab"
+version = "0.1.0"
+description = "Original Python implementations of DSA patterns, interview API design, and ML coding drills"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name="Community study project"}]
+dependencies = []
+
+[project.optional-dependencies]
+ml = ["numpy>=1.26", "torch>=2.2"]
+test = ["pytest>=8", "numpy>=1.26"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+markers = ["slow: optional torch training/profiling smoke tests"]
